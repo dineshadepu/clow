@@ -14,3 +14,8 @@ The alternative types that Clow provides, work on a lower level than the Cudarc 
 allow more flexibility.
 For example, Clow's `ClowView` has an internal layout that matches a fat pointer, whereas Cudarc's
 `CudaView` has a layout that cannot be broken down to a simple 16-byte pointer value.
+
+# Versioning
+
+Make sure the Cudarc version matches; otherwise Cudarc will probably fail to compile against your
+local architecture.
